@@ -21,6 +21,13 @@ namespace PetStore.Pets
         public short Weight { get; set; }
         public string Name { get; set; }
 
+        // constructor, constructor method
+        public Dogs(string name, short weight, string size)
+        {
+            Name = name;
+            Weight = weight;
+            Size = size;
+        }
 
         // Method Signature : access modifier, return type, name, parameter
         // void means nothing is returned
