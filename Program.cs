@@ -8,10 +8,7 @@ namespace PetStore
         // static means shared across all instances
         static void Main(string[] args)
         {
-            var ginger = new Dogs();
-            ginger.Name = "Ginger";
-            ginger.Size = "Medium";
-            ginger.Weight = 45;
+            var ginger = new Dogs("Ginger", 45, "Medium");
             ginger.Bark();
             ginger.Eat("table scraps");
         }
