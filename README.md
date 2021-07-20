@@ -1,2 +1,2 @@
 # PetStore
-This repo is an intro to C# basics for my time at Nashville Software School.
+This repo is an intro to C# basics for my server-side portion at Nashville Software School
