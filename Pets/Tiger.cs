@@ -21,8 +21,11 @@ namespace PetStore.Pets
             Speed = speed;
         }
 
+        private int _numberOfBites;
+
         public void Bite(string handlerName)
         {
+            _numberOfBites++;
             Console.WriteLine($"{Name} the tiger just ate {handlerName} :)"); 
         }
     }

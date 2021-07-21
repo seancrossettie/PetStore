@@ -14,6 +14,11 @@ namespace PetStore
 
             var tiger = new Tiger("Sean","large",5, 35);
             tiger.Bite("Maria");
+
+            var bear = new Bear("Yogi", "Brown");
+            bear.BestTigerFriend = tiger;
+
+            bear.HangOut();
         }
     }
 }
