@@ -11,6 +11,14 @@ namespace PetStore
             var ginger = new Dogs("Ginger", 45, "Medium");
             ginger.Bark();
             ginger.Eat("table scraps");
+
+            var tiger = new Tiger("Sean","large",5, 35);
+            tiger.Bite("Maria");
+
+            var bear = new Bear("Yogi", "Brown");
+            bear.BestTigerFriend = tiger;
+
+            bear.HangOut();
         }
     }
 }
